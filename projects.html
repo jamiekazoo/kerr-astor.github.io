@@ -38,10 +38,35 @@ nav a{
     padding:25px;
     border-radius:12px;
     margin-bottom:20px;
+    transition:0.2s;
+}
+
+.card:hover{
+    background:#2b2b2b;
+}
+
+.card a{
+    color:#4da6ff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.section{
+    margin-top:60px;
 }
 
 h1{
     text-align:center;
+    margin-bottom:40px;
+}
+
+h2.sectionTitle{
+    border-bottom:2px solid #333;
+    padding-bottom:10px;
+}
+
+.small{
+    color:#aaaaaa;
 }
 
 </style>
@@ -52,25 +77,76 @@ h1{
 <nav>
 <a href="index.html">Home</a>
 <a href="projects.html">Projects</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
 </nav>
 
 <div class="container">
 
 <h1>Engineering Projects</h1>
 
+<h2 class="sectionTitle">Current Team Projects</h2>
+
 <div class="card">
 <h2>Two-Stroke Engine</h2>
-<p>Status: Planning</p>
+
+<p class="small">
+Designing and building a functioning two-stroke engine while learning CAD,
+manufacturing, testing, and engine design.
+</p>
+
+<p><strong>Status:</strong> Planning</p>
+
+<a href="twostroke.html">View Project →</a>
+
 </div>
 
 <div class="card">
+<h2>Future Projects</h2>
+
+<p class="small">
+Additional engineering projects will be added as our team continues to build and learn.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2 class="sectionTitle">Previous Individual Projects</h2>
+
+<p class="small">
+These projects were completed by team members before our collaboration began.
+They are included to showcase previous engineering experience.
+</p>
+
+<div class="card">
+
 <h2>Steam Engine</h2>
-<p>Status: Completed</p>
+
+<p><strong>Primary Builder:</strong> Tillman</p>
+
+<p class="small">
+A functioning steam engine designed and built prior to the formation of our engineering team.
+</p>
+
+<a href="steam.html">View Project →</a>
+
 </div>
 
 <div class="card">
+
 <h2>Pulse Jet</h2>
-<p>Status: Completed</p>
+
+<p><strong>Primary Builder:</strong> Tillman</p>
+
+<p class="small">
+A working pulse jet engine built before our current collaboration.
+</p>
+
+<a href="pulsejet.html">View Project →</a>
+
+</div>
+
 </div>
 
 </div>
